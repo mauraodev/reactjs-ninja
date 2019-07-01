@@ -4,7 +4,7 @@ import React from "react"
 
 var Title = React.createClass({
   render() {
-    return React.createElement('h1', null, 'Título')
+    return <h1>Titulo</h1>
   }
 })
 
