@@ -2,10 +2,23 @@
 
 import React from "react"
 
-var Title = React.createClass({
-  render() {
-    return <h1>Titulo</h1>
+class App extends React.Component {
+  constructor () {
+    super()
+    this.state = {
+      text: 'Mauro'
+    }
   }
-})
 
-export default Title
+  render() {
+    return (
+      <div className="container" onClick={() => this.setState({
+        text: 'Outro texto'
+      })}>
+        {this.state.text}
+      </div>
+    )
+  }
+}
+
+export default App
