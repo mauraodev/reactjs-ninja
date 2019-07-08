@@ -1,1 +1,1 @@
-# reactjs-ninja
+# Curso React JS - Ninja
